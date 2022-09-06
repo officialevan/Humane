@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------Accordion-------------*/
+
+.loader_bg {
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    width: 280px;
+}
+
+/*#header::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: white;
+    clip-path: polygon(100% 0,0 100%,100% 100%);
+}*/
+nav{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 9999;
+}
+nav .fas{
+    display: none;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+.active-navlink::after{
+  content: '';
+    width: 100%;
+    height: 2px;
+    background: #000;
+    border-radius: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    border-radius: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: .5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+    max-width: 900px;
+  }
+  .accordion .accordion-item {
+    border-bottom: 1px solid #e5e5e5;
+  }
+  .accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #000;
+  }
+  .accordion button{
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  .accordion button a{
+    color: #7288a2;
+    text-decoration: none;
+  }
+  .accordion button a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #000;
+    border-radius: 24px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: .2s;
+  }
+  .accordion button a:hover::after{
+    width: 100%;
+  }
+
+  .accordion button a:hover, .accordion button a:focus, .accordion button:hover, .accordion button:focus {
+    cursor: pointer;
+    color: #000;
+  }
+  .accordion button:hover::after, .accordion button:focus::after {
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #000;
+  }
+  .accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+  }
+  .accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+  }
+  .accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+  }
+  .material-symbols-outlined{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 3px;
+  }
+  .accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+  }
+  .accordion button[aria-expanded='true'] {
+    color: #000;
+  }
+  .accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+  }
+  .accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 350px;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+  }
+  .accordion .accordion-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2em 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .accordion .accordion-content a{
+    padding: 10px 0;
+  }
+  /*-----------------------------Footer section-----------------------------------------*/
+.footer{
+    background: #000;
+    text-align: center;
+    padding-top: 70px;
+    width: 100%;
+    margin: auto;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+.footer .box-container .box-footer h3{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 2rem;
+}
+.footer .box-container .box-footer ul li{
+    list-style: none;
+}
+.footer .box-container .box-footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    display: block;
+    padding-bottom: 1rem;
+}
+.footer .box-container .box-footer ul li a img{
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+.footer .box-container .box-footer ul li a:hover img{
+    padding-right: 2rem;
+}
+@media only screen and (max-width:600px){
+  .header-text h1{
+    font-size: 20px;
+  }
+  .header-text{
+      max-width: 450px;
+  }
+  .header-text p{
+      font-size: 16px;
+  }
+  .logo{
+      width: 30px;
+  }
+  nav .fas{
+    display: block;
+    font-size: 20px;
+    }
+    nav ul{
+        backdrop-filter: blur(12px);
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 3555;
+        transition: right .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .footer{
+      text-align: left;
+  }
+  .footer .box-container .box-footer{
+      margin-left: 20px;
+  }
+  .footer .box-container .box-footer h3{
+      font-size: 15px;
+  }
+  .footer .box-container .box-footer ul li a{
+      font-size: 15px;
+  }
+}

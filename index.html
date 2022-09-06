@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/56c63cc6a8.js"crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icons8-workflow-48.png" type="image/x-icon">
+    <title>A shared goal | Humane</title>
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"><img src="assets/7zxq.gif" width="60px" alt="#"/></div>
+     </div>
+        <!------------------------------------------------Navigation------------------------------------------------------>
+            
+        
+        <section id="header">
+            
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/icons8-workflow-96.png"></a>
+                    </div>
+                    <nav id="sidemenu">
+                        
+                        <ul>
+                            <li><a href="#" data-text="Services">Services</a></li>
+                            <li><a href="#" data-text="About">About</a></li>
+                            <li><a href="#" data-text="Culture">Culture</a></li>
+                            <li><a href="#" data-text="Insights">Insights</a></li>
+                            <li><a href="#contact" data-text="Contact">Contact</a></li>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>                        
+                    </nav>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+                <div class="hero">
+                    <div class="header-text">
+                        <p>Business Development & Marketing Agency.</p>
+                        <h1>Innovative and sustainable solutions to develop your business.</h1>
+                        <p style="margin-top: 20px;font-size: 15px;">Humane<sup style="font-size: 7px;">TM</sup>.</p>
+                        <div class="ctaa">
+                            <a href="#contact">Let's have a conversation.</a>
+                        </div>
+                    </div>
+                    <div class="hero-img">
+                        <img src="assets/pablo-business-thinking.png" width="450px" alt="">
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <div id="services" class="what-we-do">
+            <h4>What we do | Humane<sup style="font-size: 16px;">TM</sup></h4>
+            <div class="container">
+                <div class="row">
+                    <div class="what-we-do-col-1">
+                        <p style="color: #bbb9b9;">We imagine and build experiences and products that disrupts
+                            the status quo, win hearts and realize the future. Explore how we work.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('activation')">Activation</p>
+                                <p class="tab-links active-link" onclick="opentab('business')">Business</p>
+                            </div>
+                    </div>
+                    <div class="what-we-do-col-2">
+                        <div class="tab-contents active-tab" id="business">
+                            <ul>
+                                <span>Business</span>
+                                <li>Implement strategies, Business models and ventures that drive sustainable growth.</li>
+                            </ul>
+                            <div class="biz">
+                                <div class="choices">
+                                    <p>Make Bolder Choices.</p>
+                                    <div class="cta">
+                                        <ul>
+                                            <li class="collapsible">Growth Strategy</li>
+                                            <li class="collapsible">Commerce in a digital world</li>
+                                            <li class="collapsible">Innovation Strategy</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="launch">
+                                    <p>Launch New Businesses.</p>
+                                    <div class="cta">
+                                        <ul>
+                                            <li class="collapsible">Startup Growth</li>
+                                            <li class="collapsible">Corporate Venture Builder</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="business.html" class="actions">Explore how we do it</a>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <span>Experience</span>
+                                <li>Design and build products, services and experiences customers will love.</li>
+                            </ul>
+                            <div class="biz">
+                                <div class="choices">
+                                    <p>Build Better Products & Experiences</p>
+                                </div>
+                                <div class="launch">
+                                    <div class="cta">
+                                        <ul>
+                                            <li class="collapsible">CX Strategy, Design & Performance</li>
+                                            <li class="collapsible">Product Design & Build</li>
+                                            <li class="collapsible">Service Design</li>
+                                            <li class="collapsible">Customer Research & Insights</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="experience.html" class="actions">Explore how we do it</a>
+                        </div>
+                        </div>
+                        <div class="tab-contents" id="activation">
+                            <ul>
+                                <span>Activation</span>
+                                <li>Cultivate engagement through insightful content that speaks to Customer needs.</li>
+                            </ul>
+                            <div class="biz">
+                                <div class="choices">
+                                    <p>Nurture Lasting Relationships</p>
+                                    <div class="cta">
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="launch">
+                                    <div class="cta">
+                                        <ul>
+                                            <li class="collapsible">Marketing Strategy & Performance</li>
+                                            <li class="collapsible">Real-Time Marketing Activation</li>
+                                            <li class="collapsible">Content & Asset Management</li>
+                                            <li class="collapsible">Membership & Loyalty</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="activation.html" class="actions">Explore how we do it</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    <section id="blog">
+        <div class="container">
+            <h2>BLOG</h2>
+            <p>Our blog.</p>
+                <div class="rrow">
+                    <div class="product-col">
+                        <img src="assets/financial-struggle.gif" alt="" width="100%">
+                        <h3 style="color: #fff;">HOW TO ESCAPE FINANCIAL STRUGGLES.</h3>
+                        <p style="font-size: 16px;"><i>By VP of Business Development | Humane</i></p>
+                        <p style="font-size: 16px; color: #c7c7c7;">3<sup>RD</sup> AUG 2022</p>
+                        <div class="cta">
+                            <a href="" class="btn">Read more.</a>
+                        </div>
+                    </div>
+        
+                    <div class="product-col">
+                        <img src="assets/clip-brainstorm.gif" alt="" width="100%">
+                        <h3 style="color: #fff;">ROAD TO BUILDING A STRONG TEAM</h3>
+                        <p style="font-size: 16px;"><i>By VP of Business Development | Humane</i></p>
+                        <p style="font-size: 16px; color: #c7c7c7;">23<sup>RD</sup> AUG 2022</p>
+                        <div class="cta">
+                            <a href="" class="btn">Read more.</a>
+                        </div>
+                    </div>
+        
+                    <div class="product-col">
+                        <img src="assets/strategic.gif" alt="" width="100%">
+                        <h3 style="color: #fff;">WHAT NUMBERS SAY & HOW TO LISTEN.</h3>
+                        <p style="font-size: 16px;"><i>By VP of Business Development | Humane</i></p>
+                        <p style="font-size: 16px; color: #c7c7c7;">13<sup>RD</sup> AUG 2022</p>
+                        <div class="cta">
+                            <a href="" class="btn">Read more.</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    
+    </section>
+        <!------------------------------------FAQs-------------------------------------------->
+        <div class="ccontainer" id="faq">
+            <h1 class="section__headline">FAQs</h1>
+            <h2 class="c-faqs__headline">Most Asked Questions</h2>
+            <ul class="c-faqs">
+              <li class="c-faq c-faq--active">
+                <span class="c-faq__title">What are your areas of focus as a Creative Agency?</span>
+                <div class="c-faq__answer">User experience is more than a capabilty for us. It's  at the core of everything we do here at Humane. We started in Nairobi as a UI/UX design agency and website design agency
+                  focused on mobile apps but quickly expanded our services to brand and identity, Digital Marketing and customer experience. Projects that we take on range from building a product from scatch to redesigning
+                  an existing project. We do everything you might need to bring a successful digital product to life.
+                </div>
+              </li>
+              <li class="c-faq">
+                <span class="c-faq__title">What separates Humane. from other top creative design agencies?</span>
+                <div class="c-faq__answer">We get this question alot especially from clients. There are many competent creative design agencies in Nairobi alone and even more globally. It's hard  to be different when the standard is so high.
+                  So how do we stand out? It's the quality that we bring to the table. How simple our digital products are to use. They are so human and client-centered.We rotate around the two. Most design agencies don't have that. We have a great team behind the scenes the designers, developers, project managers and other
+                  other specialists led by design directors and overseen by our co-founder.
+                </div>
+              </li>
+              <li class="c-faq">
+                <span class="c-faq__title">Can your agency help me with web design?</span>
+                <div class="c-faq__answer">Yes, we can. We are the best for creating marketing websites that meet our clients' goals by merging brand story telling and award-winning design with the latest and greatest web technologies. Our sites convert well, and people share them like crazy, which helps us get new clients who are already huge fans of our work.<br>
+                  Our company is ideally equipped to deliver website for startups.#Support starting Businesses.
+                  </div>
+              </li>
+            </ul>  <!-- /end c-faqs -->
+            <ul class="c-faqs">
+              <li class="c-faq">
+                <span class="c-faq__title">Can you help us redesign our legacy enterprise/B2B software?</span>
+                <div class="c-faq__answer">Yes, we’re up to the challenge. We’re one of the few user experience firms specializing in
+                  enterprise UX design and digital transformation of legacy business software. We start each new enterprise UX
+                  project with a deep‑dive discovery and research to fully immerse ourselves in the
+                  industry and project specifics.
+                   
+                  We're a full-service digital agency and our services span from user research and
+                  information architecture, UX UI design, prototyping, and user testing to full‑stack
+                  development and design systems. Our UI UX design firm acts as an independent entity
+                  that moves fast, avoiding the bureaucracy of a large organization, often working
+                  hand‑in‑hand with innovation labs and in‑house UX teams.</div>
+              </li>
+              <li class="c-faq">
+                <span class="c-faq__title">Do you do branding or should I hire a separate branding agency?</span>
+                <div class="c-faq__answer">Yes, we do. First and foremost, we're a user experience agency, branding is an integral
+                  part of any UX UI design project. We position ourselves as a new kind of branding
+                  agency focused on tech companies, digital products, and direct‑to‑consumer brands.
+                  Not so many UX design agencies can create a visual identity for a coffee shop like we
+                  did for Joe & The Juice. Our branding capabilities include research, brand and digital
+                  strategy, logo design, visual identity, graphic design, motion design, and style guide
+                  development, and web design, among other things.
+                   
+                  However, our clients often provide us with either a brand strategy or even a complete
+                  visual identity package. In these cases, we use the current brand foundation as a
+                  starting point, not just carefully applying it to whatever we’re designing but making sure
+                  we extend and enrich the brand while staying true to its roots.
+          </div>
+              </li>
+              <li class="c-faq">
+                <span class="c-faq__title">How much does it cost to hire you for a UI/UX design project?</span>
+                <div class="c-faq__answer">Our pricing is directly related to the project scope, timeline, deliverables, and team
+                  composition. When the scope isn’t set in stone, or the project is very dynamic, we prefer
+                  engaging on a time and materials basis where you pay us for the time spent. However,
+                  most of our UX UI engagements are fixed‑price contracts. In this case, we’ll give you a
+                  detailed proposal after learning as much as possible about your project. All estimates
+                  are calculated based on the hourly rates and the number of hours we think the job will
+                  take.
+                   
+                  As an illustration, a sample project with a UX design agency may take ten weeks and
+                  cost 10k‑100k. For time and materials engagements, we would create a custom rate
+                  card for you based on the team composition. Our rates span from 200/hour for junior
+                  designers to 600/hour for our design directors. We also offer special rates for qualified
+                  startups. Please email us to get a quote.</div>
+              </li>
+              <li class="c-faq">
+                <span class="c-faq__title">What process should I expect from your UX agency?</span>
+                <div class="c-faq__answer">Our UI/UX design process is based on the design thinking methodology, which allows
+                  us to be flexible, adapting to almost any project type and collaboration model. While
+                  each UX UI design engagement is unique, we always go through the following key
+                  phases:
+                   <br>
+                  <b>Discovery & Research</b><br>
+                  We usually start by consolidating all available project documentation and scheduling UX
+                  workshops with your team. During those sessions, we interview key stakeholders,
+                  collaborate on requirements, as well as ideate, and plan the next steps. When possible,
+                  our UX designers talk to your current or potential customers to understand their needs
+                  and pain points. In some cases, we may need to audit your existing product to identify
+                  opportunities for improvements to user experience. We will also review competitor
+                  products, gather visual design references, and document best practices.
+                  <br> 
+                  <b>Digital Strategy & Concepts</b><br>
+                  Based on the discovery & research results, we synthesize a digital strategy and define a
+                  UX approach to drive our design process. Since we're a UI/UX design agency, we will
+                  explore different concepts to establish such core elements as information architecture,
+                  key screen layouts, and UI design direction. We then validate the resulting concept with
+                  users and stakeholders. Once the feedback is in, we make necessary updates to
+                  proceed with designing the rest of the product.
+                   <br>
+                  <b>UI/UX Design</b><br>
+                  After the UI design concept has been approved, we start designing the UI and UX,
+                  continuously conducting user tests, and iterating along the way. The UX UI design main
+                  activities include user flow mapping, wireframing, user interface design, interaction
+                  design, and prototyping. We hand off design assets to developers using tools like Zeplin
+                  and provide a comprehensive style guide that includes a UI component library, UX
+                  guidelines, and complete user flows.
+                </div>
+              </li>
+              <li class="c-faq c-faq">
+                <span class="c-faq__title">How can I get a proposal for my project?</span>
+                <div class="c-faq__answer">If you're looking for a UI/UX design agency, please send us an email first with a quick
+                  summary of your project or an RFI/RFP. We usually reply within 24 hours to schedule an
+                  introductory call and ask any immediate questions. During our first call, we will ask a lot
+                  of questions about the project goals, audience, budget, timeline, and other essential
+                  details. We can sign an NDA if necessary, but we always treat all client conversations as
+                  confidential. We recommend contacting several user experience design companies to
+                  compare their prices and UX UI approach.
+                   
+                  While many UI & UX design agencies only work by the hour, we try to estimate the
+                  project cost as precisely as possible before we start. After the call, we may request
+                  various documentation such as a design brief, project requirements, past designs, etc. If
+                  we’re redesigning an existing digital product, we’ll want to schedule a demo or try it
+                  ourselves.
+                   
+                  We will email you a proposal and can schedule a video call to walk you through it. The
+                  UX design agency proposal will include a detailed description of our UX UI approach,
+                  project phases, activities, and deliverables, design team composition, and relevant case
+                  studies.</div>
+              </li>
+            </ul>  <!-- /end c-faqs -->
+            
+              <h2 class="c-faqs__headline">Other questions</h2>
+            <ul class="c-faqs">
+              <li class="c-faq">
+                <span class="c-faq__title">Do you work with startups? If so, how can my early‑stage company afford you?</span>
+                <div class="c-faq__answer">As a Nairobi‑based creative design agency, we partner with startups big and small all
+                  the time. What can be better than helping founders bring to life ideas the world has
+                  never seen before? We enjoy a fast‑moving environment that challenges our skills and
+                  process. The ultimate achievement for us is seeing our startup clients grow and take
+                  over the world.
+                   We have special discounted rates for startups we
+                  believe in. <a href="mailto:maildaviesevan@gmail.com">Email</a> our CEO Davies Evan to learn more.
+          
+          </div>
+              
+            
+          </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="rrow">
+                <div class="contact-left">
+                    <P class="talk">"Let's talk about what we can make, build, scale together" | Humane<sup style="font-size: 10px;">TM</sup>.</P>
+                    <img src="assets/taxi-handshake.gif" alt="">
+                    <p> <i class="fas fa-paper-plane"></i> help@humane.co.ke</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> 0110159554</p>
+                    <div class="social-icons">
+                        <a href=""> <i class="fab fa-twitter-square"></i> </a>
+                        <a href=""> <i class="fab fa-instagram"></i> </a>
+                        <a href=""> <i class="fab fa-linkedin"></i> </a>
+                        <a href=""> <i class="fab fa-facebook"></i> </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" id="fullname" name="Fullname" placeholder="Enter Your Name" required>
+                        <input type="email" id="email" name="Email" placeholder="Work Email" required>
+                        <input type="tel" id="phone" name="Phonenumber" placeholder="Enter Your Phonenumber.." required>
+                        <input type="text" id="company" name="Company" placeholder="Company..." required>
+                        <div class="select-wrapper">
+                            <select name="Position" id="company-position" placeholder="Company Position" required>
+                                <option value="">Company Position</option>
+                                <option value="Manager">Manager</option>
+                                <option value="Operational">Operational</option>
+                                <option value="Purchaser">Purchaser</option>
+                                <option value="CEO">CEO</option>
+                                <option value="COO">COO</option>
+                                <option value="CFO">CFO</option>
+                                <option value="CIO/CTO">CIO/CTO</option>
+                                <option value="CDO/CMO">CDO/CMO</option>
+                                <option value="Other CXO">Other CXO</option>
+                                <option value="Vice President">Vice President</option>
+                                <option value="Director/Principal Consultant">Director/Principal Consultant</option>
+                                <option value="Senior Manager/ Senior Consultant">Senior Manager/ Senior Consultant</option>
+                                <option value="Assistant/Consultant">Assistant/Consultant</option>
+                                <option value="Chairman/Board of Directors">Chairman/Board of Directors</option>
+                            </select>
+                        </div>
+                        <div class="select-wrapper">
+                            <select name="Country" id="company-position" required>
+                                <option value="">Country</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Uganda">Uganda</option>
+                                <option value="Tanzania">Tanzania</option>
+                                <option value="Rwanda">Rwanda</option>
+                                <option value="South Africa">South Africa</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Nigeria">Nigeria</option>
+                                <option value="Madagascar">Madagascar</option>
+                                <option value="Ethiopia">Ethiopia</option>
+                                <option value="Ghana">Ghana</option>
+                                <option value="Togo">Togo</option>
+                                <option value="Senegal">Senegal</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                        <textarea name="Message" id="message" placeholder="Enter Message..." cols="30" rows="5"></textarea>
+                        <div class="checkBox">
+                            <input type="checkbox" name="Communication" id="comms" value="I want communication from Humane">
+                            <span>I agree to receive communications from Humane<sup style="font-size: 7px;">TM</sup> Marketing. You can unsubscribe from from these communications at any time.</span>
+                        </div>
+                        <button type="submit" class="btn2">Send Message</button>
+                        <span id="msg"></span>
+                    </form>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
+      
+
+            <!--------------------------FOOTER SECTION----------------------------->
+            <section class="footer">
+                <div class="box-container">
+                    <div class="box-footer">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="about.html" class="link">About Us<span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="services.html" class="link">Services <span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="#" class="link">Careers <span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="#contact" class="link">Contact Us<span class="material-symbols-outlined">open_in_new</span></a></li> 
+                        </ul>
+                    </div>
+        
+                    <div class="box-footer">
+                        <h3>Extra Links</h3>
+                        <ul>
+                            <li><a href="faq.html" class="link">Ask a question.<span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="#" class="link">Privacy Policy.<span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="#" class="link">Terms of Use.<span class="material-symbols-outlined">open_in_new</span></a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="box-footer">
+                        <h3>Contact Info</h3>
+                        <ul>
+                            <li><a href="#" class="link">+254110159554.</a></li>
+                            <li><a href="mailto:maildaviesevan@gmail.com" class="link"><i class="fas fa-paper-plane"></i>maildaviesevan@gmail.com<span class="material-symbols-outlined">open_in_new</span></a></li>
+                            <li><a href="#" class="link">Nairobi, Kenya.</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="box-footer">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><a href="https://www.instagram.com/thelifewelivin/" ><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                            <li><a href="#" ><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                            <li><a href="#" ><i class="fab fa-instagram"></i>Instagram</a></li>
+                            <li><a href="#" ><i class="fab fa-pinterest-square"></i>Pinterest</a></li>
+                        </ul>
+                    </div>
+                </div>
+              </section>
+
+
+              <!---------------------------Script files------------------------->
+              <script src="js/jquery.min.js"></script>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+              <script src="js/owl.carousel.min.js"></script>
+              <script src="js/custom.js"></script> 
+              <script>
+                $('body').delegate('.c-faq', 'click', function(){
+          $('.c-faq').removeClass('c-faq--active');
+          $(this).addClass('c-faq--active');
+        });
+              </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx_hRU4ekFU4C4AxCrYSVXPqpwwfrZrbeAikO_r4N1rtMRPo5Q0DVqMZb7qV2apLjAv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function closemenu(){
+        sidemenu.style.top = "-100vh";
+    }
+    function openmenu(){
+        sidemenu.style.top = "0";
+    }
+</script>
+</body>
+</html>
