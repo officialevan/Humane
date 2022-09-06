@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -224,7 +225,7 @@ nav ul li a:hover::before{
 .what-we-do-col-1 p{
     font-size: 35px;
     font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
 }
 .tab-titles{
     padding-top: 20px;
@@ -262,7 +263,7 @@ nav ul li a:hover::before{
 .tab-contents ul li{
     list-style: none;
     margin: 10px 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     font-size: 35px;
 }
 .collapsible{
@@ -272,7 +273,7 @@ nav ul li a:hover::before{
 .tab-contents ul span{
     color: rgb(133, 126, 128);
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     font-weight: 400;
 }
 .tab-contents{
@@ -380,7 +381,8 @@ nav ul li a:hover::before{
 }
 .contact-left .talk{
     font-size: 47px;
-    font-size: 47px;font-family: 'Times New Roman', Times, serif;
+    font-size: 47px;
+    font-family: 'EB Garamond', serif;
     letter-spacing: 1.2px;
     margin-bottom: 40px;
     font-weight: 400;
@@ -484,7 +486,7 @@ form .btn2:hover{
         font-weight: light;
         color: rgb(133, 126, 128);
         padding-left: 15px;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: 'EB Garamond', serif;
         padding-top: 30px; }
       
       .c-faqs__headline {
@@ -649,7 +651,7 @@ form .btn2:hover{
 .sd-header{
     font-size: 90px;
     letter-spacing: 3px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
 }
 .sd-header-info{
     padding-top: 20px;
@@ -664,7 +666,7 @@ form .btn2:hover{
     font-size: 70px;
     color: #fff;
     letter-spacing: 2px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
 }
 .sd-container{
     display: flex;
@@ -695,7 +697,7 @@ form .btn2:hover{
 }
 .count{
     font-size: 120px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     font-weight: bold;
     position: absolute;
     z-index: 1;
@@ -705,7 +707,7 @@ form .btn2:hover{
 }
 .tagline{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     font-size: 40px;
     margin-bottom: 70px;
 }
@@ -785,7 +787,7 @@ form .btn2:hover{
     margin-top: 80px;
 }
 .team-says h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'EB Garamond', serif;
     font-size: 40px;
     padding-bottom: 30px;
 }
