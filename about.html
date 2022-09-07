@@ -4,10 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://kit.fontawesome.com/56c63cc6a8.js"crossorigin="anonymous"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <link rel="stylesheet" href="style.css">
-    <title>About us | Humane | A shared goal</title>
+    <link rel="shortcut icon" href="assets/icons8-workflow-48.png" type="image/x-icon">
+    <title>A shared goal | Humane</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <div class="loader_bg">
+        <div class="loader"><img src="assets/7zxq.gif" width="60px" alt="#"/></div>
+     </div>
+        <!------------------------------------------------Navigation------------------------------------------------------>
+            
+        
+        <section id="header">
+            
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/icons8-workflow-96.png"></a>
+                    </div>
+                    <nav id="sidemenu">
+                        
+                        <ul>
+                            <li><a href="#" data-text="Services">Services</a></li>
+                            <li><a href="#" data-text="About">About</a></li>
+                            <li><a href="#" data-text="Culture">Culture</a></li>
+                            <li><a href="#" data-text="Insights">Insights</a></li>
+                            <li><a href="#contact" data-text="Contact">Contact</a></li>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>                        
+                    </nav>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+                <div class="hero">
+                    <div class="header-text2">
+                        <h2>Hey, We're Humane.</h2>
+                        <p>We're a digital product and UX agency in Nairobi.<br>Strategy, design, and development across all platforms.</p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+                <!--------------------------------------------About Us Section------------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/ux design.jpg" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">What we do</h1>
+                    <h3>Digital products that people love to use</h3>
+                    <p>By applying behavioral science to customer experience, we design engaging digital products used by millions of people.</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-2">
+                    <h3>Enterprise software that doesn't suck</h3>
+                    <p>We create human-centered enterprise software that has the polished, snappy feel of the best consumer apps.</p>
+                </div>
+                <div class="about-col-1">
+                    <img src="assets/ux.jpg" alt="" >
+                </div>
+            </div>           
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/web design.jpg" alt="" >
+                </div>
+                <div class="about-col-2">
+                    <h3>Websites that tell your brand's story</h3>
+                    <p>From Slack to Facebook, we team up with marketing departments of large companies and startups to deliver award‑winning websites.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="contact">
+    <div class="container">
+        <div class="rrow">
+            <div class="contact-left">
+                <P class="talk">"Let's talk about what we can make, build, scale together" | Humane<sup style="font-size: 10px;">TM</sup>.</P>
+                <img src="assets/taxi-handshake.gif" alt="">
+                <p> <i class="fas fa-paper-plane"></i> help@humane.co.ke</p>
+                <p> <i class="fas fa-phone-square-alt"></i> 0110159554</p>
+                <div class="social-icons">
+                    <a href=""> <i class="fab fa-twitter-square"></i> </a>
+                    <a href=""> <i class="fab fa-instagram"></i> </a>
+                    <a href=""> <i class="fab fa-linkedin"></i> </a>
+                    <a href=""> <i class="fab fa-facebook"></i> </a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" id="fullname" name="Fullname" placeholder="Enter Your Name" required>
+                    <input type="email" id="email" name="Email" placeholder="Work Email" required>
+                    <input type="tel" id="phone" name="Phonenumber" placeholder="Enter Your Phonenumber.." required>
+                    <input type="text" id="company" name="Company" placeholder="Company..." required>
+                    <div class="select-wrapper">
+                        <select name="Position" id="company-position" placeholder="Company Position" required>
+                            <option value="">Company Position</option>
+                            <option value="Manager">Manager</option>
+                            <option value="Operational">Operational</option>
+                            <option value="Purchaser">Purchaser</option>
+                            <option value="CEO">CEO</option>
+                            <option value="COO">COO</option>
+                            <option value="CFO">CFO</option>
+                            <option value="CIO/CTO">CIO/CTO</option>
+                            <option value="CDO/CMO">CDO/CMO</option>
+                            <option value="Other CXO">Other CXO</option>
+                            <option value="Vice President">Vice President</option>
+                            <option value="Director/Principal Consultant">Director/Principal Consultant</option>
+                            <option value="Senior Manager/ Senior Consultant">Senior Manager/ Senior Consultant</option>
+                            <option value="Assistant/Consultant">Assistant/Consultant</option>
+                            <option value="Chairman/Board of Directors">Chairman/Board of Directors</option>
+                        </select>
+                    </div>
+                    <div class="select-wrapper">
+                        <select name="Country" id="company-position" required>
+                            <option value="">Country</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Tanzania">Tanzania</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="South Africa">South Africa</option>
+                            <option value="Egypt">Egypt</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Madagascar">Madagascar</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Senegal">Senegal</option>
+                        </select>
+                    </div>
+                    <div class="field">
+                    <textarea name="Message" id="message" placeholder="Enter Message..." cols="30" rows="5"></textarea>
+                    <div class="checkBox">
+                        <input type="checkbox" name="Communication" id="comms" value="I want communication from Humane">
+                        <span>I agree to receive communications from Humane<sup style="font-size: 7px;">TM</sup> Marketing. You can unsubscribe from from these communications at any time.</span>
+                    </div>
+                    <button type="submit" class="btn2">Send Message</button>
+                    <span id="msg"></span>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--------------------------FOOTER SECTION----------------------------->
+<section class="footer">
+    <div class="box-container">
+        <div class="box-footer">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="about.html" class="link">About Us<span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="services.html" class="link">Services <span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="#" class="link">Careers <span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="#contact" class="link">Contact Us<span class="material-symbols-outlined">open_in_new</span></a></li> 
+            </ul>
+        </div>
+
+        <div class="box-footer">
+            <h3>Extra Links</h3>
+            <ul>
+                <li><a href="faq.html" class="link">Ask a question.<span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="#" class="link">Privacy Policy.<span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="#" class="link">Terms of Use.<span class="material-symbols-outlined">open_in_new</span></a></li>
+            </ul>
+        </div>
+
+        <div class="box-footer">
+            <h3>Contact Info</h3>
+            <ul>
+                <li><a href="#" class="link">+254110159554.</a></li>
+                <li><a href="mailto:maildaviesevan@gmail.com" class="link"><i class="fas fa-paper-plane"></i>maildaviesevan@gmail.com<span class="material-symbols-outlined">open_in_new</span></a></li>
+                <li><a href="#" class="link">Nairobi, Kenya.</a></li>
+            </ul>
+        </div>
+
+        <div class="box-footer">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/thelifewelivin/" ><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                <li><a href="#" ><i class="fab fa-twitter-square"></i>Twitter</a></li>
+                <li><a href="#" ><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="#" ><i class="fab fa-pinterest-square"></i>Pinterest</a></li>
+            </ul>
+        </div>
+    </div>
+  </section>
+
+                          <!---------------------------Script files------------------------->
+                          <script src="js/jquery.min.js"></script>
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+                          <script src="js/owl.carousel.min.js"></script>
+                          <script src="js/custom.js"></script> 
+
+                          <script>
+                            var sidemenu = document.getElementById("sidemenu");
+                            function closemenu(){
+                                sidemenu.style.top = "-100vh";
+                            }
+                            function openmenu(){
+                                sidemenu.style.top = "0";
+                            }
+                        </script>
