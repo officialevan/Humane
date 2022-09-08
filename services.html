@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/56c63cc6a8.js"crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
-    <link rel="stylesheet" href="css/owl.carousel.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-    <link rel="shortcut icon" href="assets/icons8-workflow-48.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/humanelogo2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="services.css">
@@ -24,16 +23,24 @@
     <!------------------------------------------------Navigation------------------------------------------------------>
     <section id="header">
         <div class="container">
-            <nav>
-                <a href="index.html"><img src="assets/icons8-workflow-96.png" alt="" width="55px" class="logo"></a>
-                <ul id="sidemenu">
-                    <li><a href="services.html" class="active-navlink">Services</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#contact">Get in touch</a></li>
+          <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/humanelogo1.png"></a>
+            </div>
+            <nav id="sidemenu">
+                
+                <ul>
+                    <li><a href="services.html" data-text="Services">Services</a></li>
+                    <li><a href="about.html" data-text="About">About</a></li>
+                    <li><a href="#" data-text="Culture">Culture</a></li>
+                    <li><a href="#" data-text="Insights">Insights</a></li>
+                    <li><a href="#contact" data-text="Contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>    
+                </ul>                        
+            </nav>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>   
         </div>
     </section>
     <div class="container" id="Business">

@@ -172,7 +172,7 @@ nav ul li a:hover::before{
 }
 .header-text2{
     margin-top: 10%;
-    font-size: 36px;
+    font-size: 24px;
 }
 .header-text p{
     color: #000;
@@ -654,11 +654,17 @@ form .btn2:hover{
 #about{
     padding: 90px 0;
     color: #000;
+    max-width: 100vw;
+}
+#about .abt-row{
+    margin-bottom: 8px;
+    border-bottom: 2px solid black;
 }
 .header-text2{
     margin-bottom: 90px;
 }
 .abt-row{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -870,13 +876,30 @@ form .btn2:hover{
 .product-col img:hover{
     transform: scale(1);
 }
-@media only screen and (max-width:600px){
+@media (max-width:700px){
 
     .header-text h1{
         font-size: 20px;
     }
     .header-text{
         max-width: 450px;
+    }
+    .header-text2{
+        font-size: 16px;
+        margin-top: 40%;
+    }
+    #about{
+        padding: 0px 90px 10% 10%;
+    }
+    .header-text2 h2{
+        font-size: 40px;
+    }
+
+    .about-col-2 h3{
+        font-size: 30px;
+    }
+    .about-col-2 p{
+        font-size: 16px;
     }
     .header-text p{
         font-size: 16px;
@@ -887,8 +910,8 @@ form .btn2:hover{
     nav ul li a::before{
         font-size: 1.7em;
     }
-    .logo{
-        width: 30px;
+    .logo img{
+        width: 40px;
     }
     .ctaa a{
         padding: 7px;

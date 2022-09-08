@@ -1,1 +1,1 @@
-# Humane
+# Humane(A Conceptual project) is a brand and service design agency.

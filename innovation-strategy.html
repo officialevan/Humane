@@ -14,7 +14,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/icons8-workflow-48.png" type="image/x-icon">
-    <title>Experience | Services | Humane</title>
+    <title>Business | Services | Humane</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,16 +24,24 @@
         <!------------------------------------------------Navigation------------------------------------------------------>
         <section id="header">
             <div class="container">
-                <nav>
-                    <a href="index.html"><img src="assets/icons8-workflow-96.png" alt="" width="55px" class="logo"></a>
-                    <ul id="sidemenu">
-                        <li><a href="services.html" class="active-navlink">Services</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#contact">Get in touch</a></li>
-                        <i class="fas fa-times" onclick="closemenu()"></i>
-                    </ul>
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/humanelogo1.png"></a>
+                    </div>
+                    <nav id="sidemenu">
+                        
+                        <ul>
+                            <li><a href="services.html" data-text="Services">Services</a></li>
+                            <li><a href="about.html" data-text="About">About</a></li>
+                            <li><a href="#" data-text="Culture">Culture</a></li>
+                            <li><a href="#" data-text="Insights">Insights</a></li>
+                            <li><a href="#contact" data-text="Contact">Contact</a></li>
+                            <i class="fas fa-times" onclick="closemenu()"></i>
+                        </ul>                        
+                    </nav>
                     <i class="fas fa-bars" onclick="openmenu()"></i>
-                </nav>
+                </div>
+                <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
                     <div class="sd-header-text">
                         <p>Business</p>
                         <h1 class="sd-header">Innovation Strategy</h1>
